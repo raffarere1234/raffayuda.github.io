@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.home{
+	padding: 60px;
+}
+.row3 .right{
+	margin-top: -100px;
+}
+.row1 {
+	width: 70%;
+}
+.service-item{
+	background-color: #ddd;
+}
+input::placeholder{
+	text-align: center;
+}
+textarea::placeholder{
+	text-align: center;
+}
+.navbar{
+	background-color: white;
+}
+.idols{
+	background: #eee;
+}
+.service{
+	background: #eee;
+}
+.project .container{
+	background: #eee;
+}
+input, textarea{
+	background: hotpink;
+	border-radius: 10px;
+}
+textarea::placeholder{
+	color: white;
+}
+input::placeholder{
+	color: white;
+}
+.dark-mode img{
+	cursor: pointer;
+}
+.dark{
+	background: black;
+}
+.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6{
+	color: white;
+}
+.dark .navbar{
+	background-color: brown;
+}
+.dark .riwayat{
+	color: white;
+}
+.dark .idols{
+	background:linear-gradient(to top, white, purple, salmon);
+}
+.dark .tombol{
+	background-color: black;
+}
+.dark .card{
+	background: linear-gradient(to top, white, purple, salmon);
+}
+.dark .service{
+	background: linear-gradient(to top, white, purple, salmon);
+}
+.dark .project .container{
+	background: linear-gradient(to top, white, purple, salmon);
+}
